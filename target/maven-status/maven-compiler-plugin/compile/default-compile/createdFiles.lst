@@ -1,0 +1,4 @@
+com\tienduat\spring\config\AppConfig.class
+com\tienduat\spring\model\Book.class
+com\tienduat\spring\config\WebConfig.class
+com\tienduat\spring\config\MyWebAppInitializer.class
