@@ -29,9 +29,9 @@ public class AppConfig {
 
 		// Setting JDBC properties
 		props.put(DRIVER, env.getProperty("mysql.driver"));
-		props.put(URL, env.getProperty("mysql.driver"));
-		props.put(USER, env.getProperty("mysql.driver"));
-		props.put(PASS, env.getProperty("mysql.driver"));
+		props.put(URL, env.getProperty("mysql.url"));
+		props.put(USER, env.getProperty("mysql.user"));
+		props.put(PASS, env.getProperty("mysql.password"));
 
 		// Setting hibernate properties
 		props.put(SHOW_SQL, env.getProperty("hibernate.show_sql"));
